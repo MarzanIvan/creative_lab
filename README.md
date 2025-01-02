@@ -1,4 +1,8 @@
-Project "Марзан Иван | Creative_Lab"
+Project 
+<h3> 
+  "Марзан Иван | Creative_Lab"
+</h3>
+
 Website https://marzancreativelab.ru
 
 Project purpose is publish design projects, clients orders and get new traffic (advertising) 
