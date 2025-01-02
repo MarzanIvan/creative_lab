@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -80,8 +77,67 @@ function App() {
                       </div>
                   </div>
               </header>
+
           </div>
-          <h1>Саша чиллит в Воркуте</h1>
+
+
+          <main className="website-workarea js-website-workarea">
+              <section>
+                  <div className="container container--fluid">
+                      <div className="promo">
+                          <div className="promo__content">
+                              <div className="promo__top">
+                                  <div className="promo__title">
+                                <span className="promo__title-row promo__title-row--first">
+                                    <span>Отдых в Воркуте</span>
+                                </span>
+                                      <span className="promo__title-row promo__title-row--second">
+                                    <span>Саша отсыпается...</span>
+                                </span>
+                                  </div>
+                                  <div className="promo__subtitle">Специализируемся на&nbsp;сложных документах.</div>
+                              </div>
+                              <div className="promo__bottom">
+                                  <div className="promo-sectors">
+                                      <div className="promo-sectors__item"><span>Новый год</span>
+                                          <div className="promo-sectors__item-bg"></div>
+                                      </div>
+                                      <div className="promo-sectors__item"><span>Почти хорошо сдала семак</span>
+                                          <div className="promo-sectors__item-bg"></div>
+                                      </div>
+                                      <div className="promo-sectors__item"><span>Рядом с семьёй</span>
+                                          <div className="promo-sectors__item-bg"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div className="gradient-bg">
+                              <svg xmlns="http://www.w3.org/2000/svg">
+                                  <defs>
+                                      <filter id="goo">
+                                          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+                                          <feColorMatrix in="blur" mode="matrix"
+                                                         values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+                                                         result="goo"/>
+                                          <feBlend in="SourceGraphic" in2="goo"/>
+                                      </filter>
+                                  </defs>
+                              </svg>
+                              <div className="gradients-container">
+                                  <div className="g1"></div>
+                                  <div className="g2"></div>
+                                  <div className="g3"></div>
+                                  <div className="g4"></div>
+                                  <div className="g5"></div>
+                                  <div className="interactive"></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+          </main>
+
+
       </>
   )
 }

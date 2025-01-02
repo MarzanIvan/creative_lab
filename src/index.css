@@ -1,23 +1,38 @@
 
 #footer {
-  position: absolute;
+  position: fixed;
+  display: block;
+  width: 100%;
   left: 0;
   bottom: 0;
-  width: 100%;
-  margin-top: auto;
+
+  color: #fff;
+  background-color: #282630;
 }
+
+main{
+  min-height:100%;
+  width: 100%;
+  padding-top: 70px;
+
+}
+
 h1 {
   color: white;
   text-align: center;
   font-size: 50px;
   padding: 25px;
-
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   animation: fadeIn 2s ease-in-out;
 }
 
-
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
 body {
+
   margin: 0;
   padding: 0;
   background: url('https://img.geliophoto.com/vorkuta/21_vorkuta.jpg') no-repeat center center;
@@ -25,8 +40,10 @@ body {
 }
 
 :root {
+  padding: 0;
+  margin: 0;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+
   font-weight: 400;
 
   color-scheme: light dark;
