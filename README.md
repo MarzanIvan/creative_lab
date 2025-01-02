@@ -1,3 +1,7 @@
+Project "Марзан Иван | Creative_Lab"
+Website https://marzancreativelab.ru
+
+Project purpose is publish design projects, clients orders and get new traffic (advertising) 
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
